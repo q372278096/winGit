@@ -20,7 +20,7 @@
 # 查看当前仓库的状态
 #git diff
 git add .
-git commit -m "2016-12-31 14:54 定稿"
+git commit -m "测试"
 git status
 
 # 查看从最近到最远的所有的commit提交日志
@@ -123,7 +123,7 @@ git status
 # 推送本地master分支(主分支)到远程库+推送本地dev分支（开发分支）到远程库
 # bug分支只用于在本地修复bug，就没必要推到远程了。
 # feature分支是否推到远程，取决于你是否和你的小伙伴合作在上面开发。
-git push -u origin master
+#git push -u origin master
 #git push -u origin dev
 
 # 强制推送本地master分支(主分支)到远程库（慎重使用）+强制推送本地dev分支（开发分支）到远程库（慎重使用）
