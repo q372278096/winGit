@@ -69,7 +69,7 @@ git status
 
 # 在GitHub上创建远程库Test并与本地库Test关联
 # 通过https关联
-#git remote add origin https://github.com/Rston/Test.git
+#git remote add origin https://github.com/q372278096/winGit.git
 # 通过ssh关联
 #git remote add origin git@github.com:Rston/Test.git
 
@@ -123,7 +123,7 @@ git status
 # 推送本地master分支(主分支)到远程库+推送本地dev分支（开发分支）到远程库
 # bug分支只用于在本地修复bug，就没必要推到远程了。
 # feature分支是否推到远程，取决于你是否和你的小伙伴合作在上面开发。
-#git push -u origin master
+git push -u origin master
 #git push -u origin dev
 
 # 强制推送本地master分支(主分支)到远程库（慎重使用）+强制推送本地dev分支（开发分支）到远程库（慎重使用）
