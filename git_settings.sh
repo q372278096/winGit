@@ -131,10 +131,10 @@ git status
 #git push -f -u origin dev
 
 # 删除远程库test.txt文件（慎重使用）
-#git pull origin master
+git pull origin master
 #git rm test.txt
 #git commit -m "rm test.txt"
-git push -u origin master
+#git push -u origin master
 
 # 把当前工作现场“储藏”起来，等以后恢复现场后继续工作
 #git stash
