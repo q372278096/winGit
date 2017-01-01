@@ -81,7 +81,7 @@ git status
 
 # 克隆远程的某个仓库到本地形成本地库
 # 通过https协议clone
-#git clone https://github.com/Rston/GitTest.git
+#git clone https://github.com/q372278096/winGit.git
 # 通过ssh协议clone
 #git clone git@github.com:Rston/GitTest.git
 
