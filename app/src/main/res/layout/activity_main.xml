@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="30dp"
+        android:text="Show List Test\n (Click Button)"
+        android:gravity="center"
+        android:textColor="#B22222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BCEE68"
+        android:maxLines="2"
+        />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/list_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fruit List"
+        android:textSize="25dp"
+        android:textColor="#EE7621"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/recycler_Btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fruit Recycler"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textColor="#436EEE"/>
+
+
+</LinearLayout>
